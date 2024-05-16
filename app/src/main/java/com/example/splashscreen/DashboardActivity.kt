@@ -1,16 +1,14 @@
 package com.example.splashscreen
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
 import androidx.activity.enableEdgeToEdge
-import androidx.fragment.app.FragmentActivity
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
+import com.example.splashandbutton.HomeFragment
 import com.example.splashscreen.databinding.ActivityDashboardBinding
 import com.example.splashscreen.fragment.FavouriteFragment
-import com.example.splashscreen.fragment.HomeFragment
 import com.example.splashscreen.fragment.ProfileFragment
 import com.example.splashscreen.fragment.SearchFragment
 
